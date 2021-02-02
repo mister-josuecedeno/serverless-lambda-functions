@@ -16,14 +16,17 @@ body {
 }
 
 h1 {
+  font-size: 2rem;
   text-align: center;
   color: purple;
 }
 
 h2 {
+  font-size: 1.25rem;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: grey;
+  color: lightgrey;
+  font-weight: 400;
 }
 
 .container {
@@ -47,7 +50,7 @@ h2 {
 #users a {
   text-decoration: none;
   padding: 2px 5px;
-  background: lightgray;
+  background: lightgreen;
   border-radius: 5px;
   cursor: pointer;
   color: black;

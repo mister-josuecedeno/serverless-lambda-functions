@@ -46,7 +46,7 @@ h2 {
 }
 
 .list-group-item {
-  padding: 0.25em;
+  padding: 0.3em;
 }
 
 #users a {
@@ -56,4 +56,8 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   color: black;
+}
+
+#users a:hover {
+  filter: brightness(80%);
 }

@@ -29,14 +29,18 @@ h1 {
 
 #users {
   list-style: none;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+}
+
+.list-group-item {
+  padding: 1em;
 }
 
 #users a {
   text-decoration: none;
-  padding: 1em 2em;
+  padding: 2px 5px;
   background: lightgray;
   border-radius: 5px;
   cursor: pointer;
